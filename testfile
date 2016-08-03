@@ -1,0 +1,15 @@
+    Today we will talk about Coala an open source code analysis tool.
+Coala is basically an API that will allow you to write and use static code
+analysis modules without worrying about the interface and generally any
+usability issue. In order to use coala read on.
+
+    If you are a user, install coala using pip and afterwards prepare a project
+that you would like to have tested. Run all the checks using the --save option 
+such that you won't need to do that in the future again. Now you can execute
+again all the checks by running Coala.
+
+    In case you are a developer, you need to write a Bear. You can find plenty
+in the Coala-bears package if you want examples. A Coala Bear will yield the
+results of its analysis in Result and Diff objects.
+
+    That's it for the short introduction to coala. Cya
